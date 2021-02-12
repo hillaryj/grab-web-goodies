@@ -44,7 +44,7 @@ def get_version(version_file):
 setup(
     name="grab-web-goodies",
     # Versions should comply with PEP440
-    version=get_version("src/example/_version.py"),
+    version=get_version("src/retriever/_version.py"),
     description="A number of python scripts for grabbing media from the web",
     long_description=readme(),
     long_description_content_type="text/markdown",
