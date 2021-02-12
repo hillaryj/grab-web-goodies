@@ -4,18 +4,18 @@ May be filled in in the future.
 
 EXIT STATUS
     This utility exits with one of the following values:
-    0   Calculation completed successfully.
+    0   Completed successfully.
     >0  An error occurred.
 
 Usage:
-  retriever [--log-level=LEVEL]
+  retriever [options]
   retriever (-h | --help)
 
 Options:
-  -h --help              Show this message.
-  --log-level=LEVEL      If specified, then the log level will be set to
-                         the specified value.  Valid values are "debug", "info",
-                         "warning", "error", and "critical". [default: info]
+  -h --help             Show this message.
+  --log-level=LEVEL     If specified, then the log level will be set to
+                        the specified value.  Valid values are "debug", "info",
+                        "warning", "error", and "critical". [default: info]
 """
 
 # Standard Python Libraries
@@ -45,7 +45,7 @@ def retriever_info():
 
 def main() -> int:
     """Set up logging and call the example function."""
-    args: Dict[str, str] = docopt.docopt(__doc__, version=__version__)
+    args = docopt.docopt(__doc__, version=__version__)
     # Validate and convert arguments as needed
     schema: Schema = Schema(
         {
