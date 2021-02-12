@@ -1,10 +1,10 @@
-# skeleton-python-library #
+# grab-web-goodies #
 
-[![GitHub Build Status](https://github.com/cisagov/skeleton-python-library/workflows/build/badge.svg)](https://github.com/cisagov/skeleton-python-library/actions)
-[![Coverage Status](https://coveralls.io/repos/github/cisagov/skeleton-python-library/badge.svg?branch=develop)](https://coveralls.io/github/cisagov/skeleton-python-library?branch=develop)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/cisagov/skeleton-python-library.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/skeleton-python-library/alerts/)
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/cisagov/skeleton-python-library.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/skeleton-python-library/context:python)
-[![Known Vulnerabilities](https://snyk.io/test/github/cisagov/skeleton-python-library/develop/badge.svg)](https://snyk.io/test/github/cisagov/skeleton-python-library)
+[![GitHub Build Status](https://github.com/cisagov/grab-web-goodies/workflows/build/badge.svg)](https://github.com/cisagov/grab-web-goodies/actions)
+[![Coverage Status](https://coveralls.io/repos/github/cisagov/grab-web-goodies/badge.svg?branch=develop)](https://coveralls.io/github/cisagov/grab-web-goodies?branch=develop)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/cisagov/grab-web-goodies.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/grab-web-goodies/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/cisagov/grab-web-goodies.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/grab-web-goodies/context:python)
+[![Known Vulnerabilities](https://snyk.io/test/github/cisagov/grab-web-goodies/develop/badge.svg)](https://snyk.io/test/github/cisagov/grab-web-goodies)
 
 This is a generic skeleton project that can be used to quickly get a
 new [cisagov](https://github.com/cisagov) Python library GitHub
