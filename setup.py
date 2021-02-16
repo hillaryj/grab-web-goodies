@@ -1,5 +1,5 @@
 """
-This is the setup module for the example project.
+This is the setup module for the grab-web-goodies project.
 
 Based on:
 
@@ -42,19 +42,19 @@ def get_version(version_file):
 
 
 setup(
-    name="example",
+    name="grab-web-goodies",
     # Versions should comply with PEP440
-    version=get_version("src/example/_version.py"),
-    description="Example python library",
+    version=get_version("src/retriever/_version.py"),
+    description="A number of python scripts for grabbing media from the web",
     long_description=readme(),
     long_description_content_type="text/markdown",
     # NCATS "homepage"
-    url="https://www.us-cert.gov/resources/ncats",
+    url="https://www.github.com/hillaryj",
     # The project's main homepage
-    download_url="https://github.com/cisagov/grab-web-goodies",
+    download_url="https://github.com/hillaryj/grab-web-goodies",
     # Author details
-    author="Cyber and Infrastructure Security Agency",
-    author_email="ncats@hq.dhs.gov",
+    author="Hillary Jeffrey",
+    author_email="me@hillaryjeffrey.com",
     license="License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -77,10 +77,10 @@ setup(
     ],
     python_requires=">=3.6",
     # What does your project relate to?
-    keywords="skeleton",
+    keywords="webscraping",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    package_data={"example": ["data/*.txt"]},
+    package_data={},
     py_modules=[splitext(basename(path))[0] for path in glob("src/*.py")],
     include_package_data=True,
     install_requires=["docopt", "schema", "setuptools >= 24.2.0"],
@@ -99,6 +99,6 @@ setup(
             "pytest",
         ]
     },
-    # Conveniently allows one to run the CLI tool as `example`
-    entry_points={"console_scripts": ["example = example.example:main"]},
+    # Conveniently allows one to run the CLI tool as `retriever`
+    entry_points={"console_scripts": ["retriever = retriever.retriever:main"]},
 )

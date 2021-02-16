@@ -1,29 +1,21 @@
 # grab-web-goodies #
 
 [![GitHub Build Status](https://github.com/cisagov/grab-web-goodies/workflows/build/badge.svg)](https://github.com/cisagov/grab-web-goodies/actions)
-[![Coverage Status](https://coveralls.io/repos/github/cisagov/grab-web-goodies/badge.svg?branch=develop)](https://coveralls.io/github/cisagov/grab-web-goodies?branch=develop)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/cisagov/grab-web-goodies.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/grab-web-goodies/alerts/)
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/cisagov/grab-web-goodies.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cisagov/grab-web-goodies/context:python)
-[![Known Vulnerabilities](https://snyk.io/test/github/cisagov/grab-web-goodies/develop/badge.svg)](https://snyk.io/test/github/cisagov/grab-web-goodies)
+[![Known Vulnerabilities](https://snyk.io/test/github/hillaryj/grab-web-goodies/develop/badge.svg)](https://snyk.io/test/github/hillaryj/grab-web-goodies)
 
-This is a generic skeleton project that can be used to quickly get a
-new [cisagov](https://github.com/cisagov) Python library GitHub
-project started.  This skeleton project contains [licensing
-information](LICENSE), as well as
-[pre-commit hooks](https://pre-commit.com) and
-[GitHub Actions](https://github.com/features/actions) configurations
-appropriate for a Python library project.
+This repository contains small scripts I find useful to automate collecting
+interesting and useful media or pages.
 
 ## New Repositories from a Skeleton ##
 
-Please see our [Project Setup guide](https://github.com/cisagov/development-guide/tree/develop/project_setup)
+Please see the cisagov [Project Setup guide](https://github.com/cisagov/development-guide/tree/develop/project_setup)
 for step-by-step instructions on how to start a new repository from
 a skeleton. This will save you time and effort when configuring a
 new repository!
 
 ## Contributing ##
 
-We welcome contributions!  Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for
+Contributions welcome!  Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for
 details.
 
 ## License ##

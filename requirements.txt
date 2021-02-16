@@ -1,2 +1,4 @@
 --editable .
+beautifulsoup4==4.7.0
+requests==2.20
 wheel
