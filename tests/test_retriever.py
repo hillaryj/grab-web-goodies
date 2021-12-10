@@ -10,8 +10,7 @@ from unittest.mock import patch
 # Third-Party Libraries
 import pytest
 
-# cisagov Libraries
-# local Libraries
+# Local Libraries
 import retriever
 
 log_levels = (
@@ -47,7 +46,7 @@ def test_running_as_module(capsys):
             # being done by __main__ is importing the main entrypoint of the
             # package and running it, so there is nothing to use from this
             # import. As a result, we can safely ignore this warning.
-            # cisagov Libraries
+            # Local Libraries
             import retriever.__main__  # noqa: F401
     captured = capsys.readouterr()
     assert (

@@ -1,6 +1,6 @@
 # grab-web-goodies #
 
-[![GitHub Build Status](https://github.com/cisagov/grab-web-goodies/workflows/build/badge.svg)](https://github.com/cisagov/grab-web-goodies/actions)
+[![GitHub Build Status](https://github.com/hillaryj/grab-web-goodies/workflows/build/badge.svg)](https://github.com/hillaryj/grab-web-goodies/actions)
 [![Known Vulnerabilities](https://snyk.io/test/github/hillaryj/grab-web-goodies/develop/badge.svg)](https://snyk.io/test/github/hillaryj/grab-web-goodies)
 
 This repository contains small scripts I find useful to automate collecting
